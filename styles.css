@@ -45,3 +45,67 @@ li {
 }
 
 /**************************/
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.cell {
+  padding: auto;
+  border: 1px solid transparent;
+}
+
+.game-container {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+.score {
+  font-size: 50px;
+}
+
+.score-title {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.reset-btn {
+  font-size: 22px;
+}
+
+.snake {
+  background-color: rgb(47, 220, 223);
+  border: 1px solid black;
+}
+
+.erase {
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.food {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.game-info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.controls-title {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.scoreboard-container {
+  margin-right: 10%;
+}
